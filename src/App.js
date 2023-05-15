@@ -73,7 +73,6 @@ function App() {
 
   const handleSave = async (e) => {
     const index = users.findIndex((user) => user.id === edituser.id);
-    console.log(index);
     if (index >= 0) {
       users[index] = edituser;
       setUsers([...users]);
