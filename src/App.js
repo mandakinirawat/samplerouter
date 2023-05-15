@@ -55,7 +55,7 @@ function App() {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    //setUsers([edituser, ...users]);
+    setUsers([edituser, ...users]);
     setEditUser({ id: "", name: "", email: "" });
     navigate("/");
 
